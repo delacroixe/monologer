@@ -211,3 +211,6 @@ transformers_cache/
 # Jupyter Notebook outputs
 *.ipynb
 !example.ipynb
+
+*.pyc
+__pycache__/
