@@ -9,10 +9,10 @@ def main():
     """Función principal del sistema"""
     # Inputs de ejemplo
     inputs_ejemplo = {
-        "tema": "La soledad en la era digital",
-        "tono": "melancólico pero esperanzador",
-        "duracion": "3-4 minutos",
-        "audiencia": "adultos jóvenes y millennials"
+        "tema": "La relacion entre los agentes de inteligencia artificial y los hamsters",
+        "tono": "sacarístico y humorístico",
+        "duracion": "2 minutos",
+        "audiencia": "frikis informáticos"
     }
     
     print("🎭 Ejemplo de ejecución del sistema:")

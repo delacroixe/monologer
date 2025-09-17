@@ -36,9 +36,9 @@ def crear_grafo_monologo():
     workflow.set_entry_point("actor")
     workflow.add_edge("actor", "creador")
     workflow.add_edge("creador", "revisor_a")
-    workflow.add_edge("creador", "revisor_b")
+    # workflow.add_edge("creador", "revisor_b")
     workflow.add_edge("revisor_a", "evaluador")
-    workflow.add_edge("revisor_b", "evaluador")
+    # workflow.add_edge("revisor_b", "evaluador")
     
     # Decisión condicional desde el evaluador
     workflow.add_conditional_edges(
